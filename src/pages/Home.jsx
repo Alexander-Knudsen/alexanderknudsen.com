@@ -68,7 +68,7 @@ export default function Home() {
             </div>
 
             <div className="flex gap-4">
-              <a href="https://linkedin.com/in/alexander-knudsen" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 rounded-lg hover:bg-[#d4884a] transition-colors">
+              <a href="https://www.linkedin.com/in/alexander-knudsen-066643349/" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 rounded-lg hover:bg-[#d4884a] transition-colors">
                 <Linkedin className="w-5 h-5 text-white" />
               </a>
               <a href="https://github.com/Alexander-Knudsen" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 rounded-lg hover:bg-[#d4884a] transition-colors">
@@ -292,7 +292,7 @@ export default function Home() {
             </div>
 
             <div className="flex justify-center gap-4">
-              <a href="https://linkedin.com/in/alexander-knudsen" target="_blank" rel="noopener noreferrer" className="p-4 bg-white/10 rounded-xl hover:bg-[#d4884a] transition-colors">
+              <a href="https://www.linkedin.com/in/alexander-knudsen-066643349/" target="_blank" rel="noopener noreferrer" className="p-4 bg-white/10 rounded-xl hover:bg-[#d4884a] transition-colors">
                 <Linkedin className="w-6 h-6 text-white" />
               </a>
               <a href="https://github.com/Alexander-Knudsen" target="_blank" rel="noopener noreferrer" className="p-4 bg-white/10 rounded-xl hover:bg-[#d4884a] transition-colors">
