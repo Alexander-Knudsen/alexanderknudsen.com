@@ -46,7 +46,7 @@ export default function Home() {
           >
             <p className="text-[#d4884a] font-medium mb-4 tracking-wide">CURRICULUM VITAE</p>
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
-              Alexander Odinn<br />Knudsen
+              Alexander Óðinn<br />Knudsen
             </h1>
             <p className="text-[#d4884a] text-xl mb-6">
               B.Sc. in Mechanical Engineering | Finishing B.Sc. in Computer Science (Spring 2026)
