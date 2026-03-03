@@ -83,10 +83,12 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="hidden md:flex justify-center"
           >
-            <div className="w-80 h-96 bg-[#d4884a] rounded-lg shadow-2xl overflow-hidden">
-              <div className="w-full h-full bg-gradient-to-b from-[#d4884a] to-[#c47a3f] flex items-center justify-center">
-                <span className="text-8xl font-bold text-white/20">AK</span>
-              </div>
+            <div className="w-80 h-96 rounded-lg shadow-2xl overflow-hidden">
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69a7123170ff6fa8858b2abf/6db1e3126_image.png"
+                alt="Alexander Óðinn Knudsen"
+                className="w-full h-full object-cover object-top"
+              />
             </div>
           </motion.div>
         </div>
