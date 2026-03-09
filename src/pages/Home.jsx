@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, Linkedin, Github, Download, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const CV_URL = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/user_686eebb3d0dbf754cb1d7a4e/ea363da25_AlexanderinnKnudsen-CV.pdf";
+const CV_URL = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69a7123170ff6fa8858b2abf/bac7e59ce_Alexander_Knudsen_CV_ULTIMATE.pdf";
 
 export default function Home() {
   const scrollToSection = (id) => {
