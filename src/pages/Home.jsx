@@ -188,7 +188,8 @@ export default function Home() {
                 {
                   title: "Botahusid Website",
                   description: "Designed and deployed botahusid.is for a law-related business.",
-                  status: "Completed"
+                  status: "Completed",
+                  link: "https://botahusid.is"
                 }
               ].map((project, i) => (
                 <motion.div
