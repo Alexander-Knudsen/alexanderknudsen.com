@@ -201,7 +201,11 @@ export default function Home() {
                   className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border-l-4 border-[#d4884a]"
                 >
                   <div className="flex justify-between items-start mb-2">
+                    {project.link ? (
+                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="font-semibold text-[#1e3a5f] text-lg hover:text-[#d4884a] transition-colors">{project.title}</a>
+                  ) : (
                     <h3 className="font-semibold text-[#1e3a5f] text-lg">{project.title}</h3>
+                  )}
                     <span className={`text-xs px-3 py-1 rounded-full ${project.status === "Current Project" ? "bg-[#d4884a] text-white" : "bg-gray-100 text-gray-600"}`}>
                       {project.status}
                     </span>
