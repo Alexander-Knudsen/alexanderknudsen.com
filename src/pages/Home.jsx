@@ -210,7 +210,14 @@ export default function Home() {
                       {project.status}
                     </span>
                   </div>
-                  <p className="text-gray-600">{project.description}</p>
+                  <p className="text-gray-600">
+                    {project.title === "Botahusid Website" ? (
+                      <>
+                        Designed, built, and deployed a full website for a law-related business in Iceland. Visit it at{" "}
+                        <a href="https://botahusid.is" target="_blank" rel="noopener noreferrer" className="underline text-[#1e3a5f] hover:text-[#d4884a] transition-colors">botahusid.is</a>.
+                      </>
+                    ) : project.description}
+                  </p>
                 </motion.div>
               ))}
             </div>
