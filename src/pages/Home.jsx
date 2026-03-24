@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, Linkedin, Github, Download, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const CV_URL = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69a7123170ff6fa8858b2abf/bac7e59ce_Alexander_Knudsen_CV_ULTIMATE.pdf";
+const CV_URL = "https://media.base44.com/files/public/69a7123170ff6fa8858b2abf/27d8407e1_AlexanderinnKnudsen-CV.pdf";"https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69a7123170ff6fa8858b2abf/bac7e59ce_Alexander_Knudsen_CV_ULTIMATE.pdf";
 
 export default function Home() {
   const scrollToSection = (id) => {
@@ -172,22 +172,22 @@ export default function Home() {
               {[
                 {
                   title: "Stilling Bot MVP",
-                  description: "Built an AI chatbot MVP for product and customer-support workflows using internal company and product data.",
+                  description: "Built an AI chatbot MVP for product and customer-support workflows using internal company and product data. Developed in Python using the early GPT-4 API via OpenAI's Chat Completions — a terminal-based chat interface where natural language queries about car parts were resolved by translating licence plate numbers to vehicle models and searching a TecDoc dataset sourced from Kaggle. The system handled part lookups conversationally, with the main constraint being VIN-specific fitment cases that required manual verification.",
                   status: "Completed"
                 },
                 {
                   title: "Slideshow Agent",
-                  description: "Building an AI-powered slideshow agent for dynamic, data-driven presentation generation.",
+                  description: "An AI-powered presentation system that turns raw spreadsheets into polished, data-driven decks. It reads the structure of the workbook, identifies what the data actually supports, and builds a presentation with a real point of view — less \"AI slides\", more sharp analyst meets strong designer. Uses GPT-4 to generate full web-native decks with custom layout, styling, and narrative structure. Charts and visuals are rendered directly for the browser with interactive behavior. A quality pipeline checks fit, readability, structure, and visual consistency before a deck is accepted.",
                   status: "Current Project"
                 },
                 {
                   title: "Basketmob API",
-                  description: "Developed an API-based project for basketball workflows, including backend data handling and integration.",
+                  description: "A Java Spring REST API built as a school project providing standings, scores, game results, and team information for the Icelandic basketball league. Originally developed in IntelliJ, then migrated to VS Code to take advantage of the GitHub Copilot extension for accelerated development.",
                   status: "School Project"
                 },
                 {
                   title: "Botahusid Website",
-                  description: "Designed and deployed botahusid.is for a law-related business.",
+                  description: "Designed, built, and deployed a full website for a law-related business in Iceland. Visit it at botahusid.is.",
                   status: "Completed",
                   link: "https://botahusid.is"
                 }
